@@ -1,0 +1,4 @@
+编程语言：Qt5   
+开发工具：装有Qt5插件的 VS2013或以上版本
+数据库：SQL Server 2012或以上版本
+数据库设计：powerDesigner

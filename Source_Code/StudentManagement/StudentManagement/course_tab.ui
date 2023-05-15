@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>course_tab</class>
+ <widget class="QWidget" name="course_tab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>349</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>course_tab</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLineEdit" name="num_lineEdit">
+           <property name="placeholderText">
+            <string>输入要查找课程号</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="name_lineEdit">
+           <property name="placeholderText">
+            <string>输入查找课程名</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableView" name="tableView"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="fresh_pushButton">
+         <property name="text">
+          <string>刷新</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Find_pushButton">
+         <property name="text">
+          <string>查询</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Add_pushButton">
+         <property name="text">
+          <string>添加</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Del_pushButton">
+         <property name="text">
+          <string>删除</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="modify_Button">
+         <property name="text">
+          <string>修改</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="submit_Button">
+         <property name="text">
+          <string>确认修改</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="rollback_Button">
+         <property name="text">
+          <string>撤回修改</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

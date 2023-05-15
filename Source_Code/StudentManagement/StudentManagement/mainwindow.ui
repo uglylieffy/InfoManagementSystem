@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindowClass</class>
+ <widget class="QMainWindow" name="mainwindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>mainwindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">QHeaderView::section, QTableCornerButton::section {
+padding: 1px;
+border: none;
+border-bottom: 1px solid rgb(160, 160, 160);
+border-right: 1px solid rgb(160, 160, 160);
+border-bottom: 1px solid gray;
+background-color: qlineargradient(spread:reflect, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 255, 255), 
+    stop:1 rgba(164, 164, 164, 255));
+}
+
+/*QHeaderView::section {
+background: rgb(255, 255, 127);
+}*/
+
+QString tabBarStyle = &quot;QTabBar::tab {min-width:100px;color: white;border: 2px solid;border-top-left-radius: 10px;border-top-right-radius: 10px;padding:5px;}\
+QTabBar::tab:!selected {margin-top: 5px;} \
+QTabBar::tab:selected {color: blue;}&quot;;
+m_TabWidget-&gt;setStyleSheet(tabBarStyle);</string>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="mainwindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>

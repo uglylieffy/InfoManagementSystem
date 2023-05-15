@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addcoursedlg</class>
+ <widget class="QWidget" name="addcoursedlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>addcoursedlg</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>240</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>244</width>
+     <height>165</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>课程号:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>老师编号:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>课程名:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>学分:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>课时:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>课程类型:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="cno_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="tno_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="cname_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="cre_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ctime_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ctype_lineEdit"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

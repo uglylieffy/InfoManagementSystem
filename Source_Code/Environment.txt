@@ -1,0 +1,3 @@
+StudentManagement  文件夹 就是工程代码，
+编程语言：Qt5   
+运行环境：装有Qt5插件的 VS 2013

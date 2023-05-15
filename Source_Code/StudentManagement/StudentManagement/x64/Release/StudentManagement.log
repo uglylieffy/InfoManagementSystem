@@ -1,0 +1,41 @@
+﻿生成启动时间为 2018/7/18 16:30:53。
+     1>项目“C:\Users\10074\Desktop\计算3班_王天奇 湖工大学生成绩管理系统\应用系统编程\StudentManagement\StudentManagement\StudentManagement.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.5.0\5.5\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtCore /ID:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtGui /ID:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtSql /ID:\Qt\Qt5.5.0\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_mainwindow.cpp main.cpp mainwindow.cpp
+         moc_mainwindow.cpp
+         main.cpp
+         mainwindow.cpp
+         正在生成代码...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\10074\Desktop\计算3班_王天奇 湖工大学生成绩管理系统\应用系统编程\StudentManagement\x64\Release\\StudentManagement.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.5.0\5.5\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\10074\Desktop\计算3班_王天奇 湖工大学生成绩管理系统\应用系统编程\StudentManagement\x64\Release\StudentManagement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\10074\Desktop\计算3班_王天奇 湖工大学生成绩管理系统\应用系统编程\StudentManagement\x64\Release\StudentManagement.lib" /MACHINE:X64 x64\Release\addcoursedlg.obj
+         x64\Release\addstudlg.obj
+         x64\Release\add_classdlg.obj
+         x64\Release\add_scoredlg.obj
+         x64\Release\add_teacherdlg.obj
+         x64\Release\class_tab.obj
+         x64\Release\course_tab.obj
+         x64\Release\qrc_mainwindow.obj
+         x64\Release\moc_addcoursedlg.obj
+         x64\Release\moc_addstudlg.obj
+         x64\Release\moc_add_classdlg.obj
+         x64\Release\moc_add_scoredlg.obj
+         x64\Release\moc_add_teacherdlg.obj
+         x64\Release\moc_class_tab.obj
+         x64\Release\moc_course_tab.obj
+         x64\Release\moc_mainwindow.obj
+         x64\Release\moc_score_tab.obj
+         x64\Release\moc_stu_tab.obj
+         x64\Release\moc_teacher_tab.obj
+         x64\Release\main.obj
+         x64\Release\mainwindow.obj
+         x64\Release\score_tab.obj
+         x64\Release\stu_tab.obj
+         x64\Release\teacher_tab.obj
+         StudentManagement.vcxproj -> C:\Users\10074\Desktop\计算3班_王天奇 湖工大学生成绩管理系统\应用系统编程\StudentManagement\x64\Release\StudentManagement.exe
+     1>已完成生成项目“C:\Users\10074\Desktop\计算3班_王天奇 湖工大学生成绩管理系统\应用系统编程\StudentManagement\StudentManagement\StudentManagement.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.47

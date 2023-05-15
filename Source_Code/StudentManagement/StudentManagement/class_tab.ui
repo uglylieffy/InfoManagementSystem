@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>class_tab</class>
+ <widget class="QWidget" name="class_tab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>class_tab</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="name_lineEdit">
+         <property name="placeholderText">
+          <string>输入查询的班级名字</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="num_lineEdit">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>输入要查询的班级号</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="class_tableView"/>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="fresh_Button">
+       <property name="text">
+        <string>刷新</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modify_Button">
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="submit_Button">
+       <property name="text">
+        <string>提交修改</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rollback_Button">
+       <property name="text">
+        <string>撤销修改</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="find_Button">
+       <property name="text">
+        <string>查询</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="del_Button">
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="add_Button">
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
