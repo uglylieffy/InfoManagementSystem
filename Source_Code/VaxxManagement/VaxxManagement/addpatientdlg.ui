@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>addcoursedlg</class>
- <widget class="QWidget" name="addcoursedlg">
+ <class>addStudlg</class>
+ <widget class="QDialog" name="addStudlg">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,16 +11,22 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>addcoursedlg</string>
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/login/beijing01.png);</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>240</y>
+     <x>90</x>
+     <y>230</y>
      <width>93</width>
      <height>28</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/login/beijing01.png);</string>
    </property>
    <property name="text">
     <string>OK</string>
@@ -29,8 +35,8 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>240</y>
+     <x>220</x>
+     <y>230</y>
      <width>93</width>
      <height>28</height>
     </rect>
@@ -39,57 +45,50 @@
     <string>CANCEL</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>30</y>
-     <width>244</width>
-     <height>165</height>
+     <x>80</x>
+     <y>50</y>
+     <width>229</width>
+     <height>137</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Patient ID:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>课程号:</string>
+         <string>Name:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>老师编号:</string>
+         <string>Sex:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>课程名:</string>
+         <string>Age:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_5">
         <property name="text">
-         <string>学分:</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_6">
-        <property name="text">
-         <string>课时:</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_7">
-        <property name="text">
-         <string>课程类型:</string>
+         <string>District ID</string>
         </property>
        </widget>
       </item>
@@ -98,29 +97,27 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLineEdit" name="cno_lineEdit"/>
+       <widget class="QLineEdit" name="stuNumEdit"/>
       </item>
       <item>
-       <widget class="QLineEdit" name="tno_lineEdit"/>
+       <widget class="QLineEdit" name="stuNameEdit"/>
       </item>
       <item>
-       <widget class="QLineEdit" name="cname_lineEdit"/>
+       <widget class="QLineEdit" name="stuSexEdit"/>
       </item>
       <item>
-       <widget class="QLineEdit" name="cre_lineEdit"/>
+       <widget class="QLineEdit" name="stuAgeEdit"/>
       </item>
       <item>
-       <widget class="QLineEdit" name="ctime_lineEdit"/>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="ctype_lineEdit"/>
+       <widget class="QLineEdit" name="stuClnoEdit"/>
       </item>
      </layout>
     </item>
    </layout>
   </widget>
  </widget>
- <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="mainwindow.qrc"/>
+ </resources>
  <connections/>
 </ui>

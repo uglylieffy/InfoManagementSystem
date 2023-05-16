@@ -1,97 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>score_tab</class>
- <widget class="QWidget" name="score_tab">
+ <class>stu_tab</class>
+ <widget class="QWidget" name="stu_tab">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>613</width>
-    <height>345</height>
+    <width>612</width>
+    <height>404</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>score_tab</string>
+   <string>stu_tab</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
-    <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
          <item>
           <widget class="QLineEdit" name="name_lineEdit">
-           <property name="placeholderText">
-            <string>输入学生姓名</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLineEdit" name="num_lineEdit">
            <property name="text">
             <string/>
            </property>
            <property name="placeholderText">
-            <string>输入要查找的学生学号</string>
+            <string>Enter the name to be searched</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="num_lineEdit">
+           <property name="placeholderText">
+            <string>Enter the ID to be searched</string>
            </property>
           </widget>
          </item>
         </layout>
        </item>
        <item>
-        <widget class="QTableView" name="tableView"/>
+        <widget class="QTableView" name="stu_tableView"/>
        </item>
       </layout>
      </item>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QPushButton" name="fresh_pushButton">
+        <widget class="QPushButton" name="stuFresh_pushButton">
          <property name="text">
-          <string>刷新</string>
+          <string>Refresh</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="find_pushButton">
+        <widget class="QPushButton" name="stuFind_pushButton">
          <property name="text">
-          <string>查找</string>
+          <string>Lookup</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="add_pushButton">
+        <widget class="QPushButton" name="stuAdd_pushButton">
          <property name="text">
-          <string>添加</string>
+          <string>Add</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="del_pushButton">
+        <widget class="QPushButton" name="stuDel_pushButton">
          <property name="text">
-          <string>删除</string>
+          <string>Delete</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="modify_Button">
          <property name="text">
-          <string>进入修改</string>
+          <string>Modify</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="submit_Button">
          <property name="text">
-          <string>确认修改</string>
+          <string>Confirm Modification</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="rollback_Button">
          <property name="text">
-          <string>撤回修改</string>
+          <string>Undo Modification</string>
          </property>
         </widget>
        </item>
@@ -103,7 +106,7 @@
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>155</height>
+           <height>40</height>
           </size>
          </property>
         </spacer>

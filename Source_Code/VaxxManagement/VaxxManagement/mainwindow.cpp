@@ -11,11 +11,11 @@ mainwindow::mainwindow(QWidget *parent)
 	m_pClassTab = new class_tab();
 	m_pTeacherTab = new teacher_tab();
 
-	ui.tabWidget->addTab(m_pStuTab,tr("学生信息"));
-	ui.tabWidget->addTab(m_pCourseTab, tr("课程信息"));
-	ui.tabWidget->addTab(m_pScoreTab, tr("选课情况"));
-	ui.tabWidget->addTab(m_pClassTab, tr("班级信息"));
-	ui.tabWidget->addTab(m_pTeacherTab, tr("教师信息"));
+	ui.tabWidget->addTab(m_pStuTab,tr("??????"));
+	ui.tabWidget->addTab(m_pCourseTab, tr("?γ????"));
+	ui.tabWidget->addTab(m_pScoreTab, tr("??????"));
+	ui.tabWidget->addTab(m_pClassTab, tr("?????"));
+	ui.tabWidget->addTab(m_pTeacherTab, tr("??????"));
 }
 
 mainwindow::~mainwindow()

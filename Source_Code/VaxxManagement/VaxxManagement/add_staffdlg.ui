@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>add_TeacherDlg</string>
+   <string>add_StaffDlg</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
@@ -39,7 +39,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>CANCLE</string>
+    <string>CANCEL</string>
    </property>
   </widget>
   <widget class="QWidget" name="">
@@ -57,35 +57,35 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>教师编号：</string>
+         <string>Staff ID:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>姓名：</string>
+         <string>Name:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>年龄：</string>
+         <string>Age:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>性别：</string>
+         <string>Sex:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_5">
         <property name="text">
-         <string>职称：</string>
+         <string>Occupation:</string>
         </property>
        </widget>
       </item>

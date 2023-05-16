@@ -23,14 +23,14 @@
          <item>
           <widget class="QLineEdit" name="num_lineEdit">
            <property name="placeholderText">
-            <string>输入要查找课程号</string>
+            <string>Enter the Vaccination Lot to be searched</string>
            </property>
           </widget>
          </item>
          <item>
           <widget class="QLineEdit" name="name_lineEdit">
            <property name="placeholderText">
-            <string>输入查找课程名</string>
+            <string>Enter the Vaccination Name to be searched</string>
            </property>
           </widget>
          </item>
@@ -59,49 +59,49 @@
        <item>
         <widget class="QPushButton" name="fresh_pushButton">
          <property name="text">
-          <string>刷新</string>
+          <string>Refresh</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="Find_pushButton">
          <property name="text">
-          <string>查询</string>
+          <string>Lookup</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="Add_pushButton">
          <property name="text">
-          <string>添加</string>
+          <string>Add</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="Del_pushButton">
          <property name="text">
-          <string>删除</string>
+          <string>Delete</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="modify_Button">
          <property name="text">
-          <string>修改</string>
+          <string>Modify</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="submit_Button">
          <property name="text">
-          <string>确认修改</string>
+          <string>Confirm Modification</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="rollback_Button">
          <property name="text">
-          <string>撤回修改</string>
+          <string>Undo Modification</string>
          </property>
         </widget>
        </item>

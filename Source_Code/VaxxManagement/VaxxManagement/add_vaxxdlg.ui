@@ -54,35 +54,35 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>学号：</string>
+         <string>Patient ID:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>课程号：</string>
+         <string>Vaccination Lot:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>正考成绩：</string>
+         <string>1st Vaccination:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>补考成绩：</string>
+         <string>2nd Vaccination:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_5">
         <property name="text">
-         <string>重修成绩：</string>
+         <string>3rd Vaccination:</string>
         </property>
        </widget>
       </item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>add_ClassDlg</class>
- <widget class="QDialog" name="add_ClassDlg">
+ <class>addcoursedlg</class>
+ <widget class="QWidget" name="addcoursedlg">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,13 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>add_ClassDlg</string>
+   <string>addcoursedlg</string>
   </property>
-  <widget class="QPushButton" name="ok_Button">
+  <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>200</y>
+     <x>50</x>
+     <y>240</y>
      <width>93</width>
      <height>28</height>
     </rect>
@@ -29,23 +29,23 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>200</y>
+     <x>200</x>
+     <y>240</y>
      <width>93</width>
      <height>28</height>
     </rect>
    </property>
    <property name="text">
-    <string>Cancel</string>
+    <string>CANCEL</string>
    </property>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>70</x>
      <y>30</y>
      <width>244</width>
-     <height>141</height>
+     <height>165</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -54,21 +54,42 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>班级号</string>
+         <string>Vaccination Lot:</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>班级名称</string>
+         <string>Staff ID:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>学院编号</string>
+         <string>Vaccination Name:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Vaccination Site:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Date:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Type of Vaccination:</string>
         </property>
        </widget>
       </item>
@@ -77,13 +98,22 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLineEdit" name="CLNOEdit"/>
+       <widget class="QLineEdit" name="cno_lineEdit"/>
       </item>
       <item>
-       <widget class="QLineEdit" name="CLNameEdit"/>
+       <widget class="QLineEdit" name="tno_lineEdit"/>
       </item>
       <item>
-       <widget class="QLineEdit" name="ACNOEdit"/>
+       <widget class="QLineEdit" name="cname_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="cre_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ctime_lineEdit"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="ctype_lineEdit"/>
       </item>
      </layout>
     </item>
