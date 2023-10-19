@@ -7,7 +7,7 @@ Languages: C++ and Qt
 Database: MySQL
 
 ## ER Diagram
-![Alt text](./src/src/erdiagram.png "er diagram")
+![Alt text](./src/erdiagram.png "er diagram")
 ## Add New Patient
 ![Alt text](./src/demoPic/addPatientInfo.png)
 ## Add New Vaccination Info
